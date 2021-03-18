@@ -35,31 +35,33 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
 /*html {*/
 /*  height: 100%;*/
 /*}*/
 
 body {
+  color: #283136;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  line-height: 24px;
+
+  background-color: #ffffff;
+
   /*display: grid;*/
   /*grid-template-rows: min-content 1fr min-content;*/
   /*min-width: 1200px;*/
   /*height: 100%;*/
-  /*margin: 0 auto;*/
-  /*padding: 0;*/
-
-  /*color: var(--primary-text);*/
-  /*font-weight: 400;*/
-  /*font-size: 16px;*/
-  /*font-family: "Roboto", "Arial", sans-serif;*/
-  /*font-style: normal;*/
-  /*line-height: 22px;*/
-
-  /*background-color: var(--bg-body-first);*/
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 .visually-hidden {
@@ -73,4 +75,167 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+/* Button */
+
+.btn {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  background-color: #fb565a;
+}
+
+.btn-green {
+  background-color: #00ca74;
+}
+
+.btn-yellow {
+  background-color: #efc849;
+}
+
+/* Header */
+
+.page-header {
+  background-color: #eeeeee;
+}
+
+.site-navigation-link,
+.user-navigation-link {
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+/* Slider */
+
+.slider {
+  background-color: #eeeeee;
+}
+
+.slider-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.slider-item-lead {
+  color: #000000;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+}
+
+/* Services */
+
+.services-item-title {
+  color: #000000;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+/* About */
+
+.about-lead {
+  color: #000000;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.about-services {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.about-stats {
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.stats td {
+  color: #000000;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 64px;
+}
+
+.stats span {
+  color: #000000;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 40px;
+  vertical-align: super;
+}
+
+.stats th {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+/* Contacts */
+
+.contacts-company-name {
+  color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.contacts-address,
+.contacts-telephone {
+  color: #666666;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.tel-link {
+  color: inherit;
+}
+
+/* Footer */
+
+.social-link {
+  background-color: #e1e1e1;
+}
+
+.friendship-slogan {
+  color: #000000;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.friendship-desc {
+  color: #444444;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* Catalog page */
+
+.page-title-wrapper {
+  background-color: #eeeeee;
+}
+
+.page-title {
+  color: #000000;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
 }
